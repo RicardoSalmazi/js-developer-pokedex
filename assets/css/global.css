@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto';  /* Acrestar mais uma sempre, sans-serif */
+    box-sizing: border-box; /* Borda como tamanho total - facilita */
+}
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+button {
+    display: block; /* Frescura. Apenas cntralizando o botão - juntar com o margin: 0 auto; */
+    margin: 0 auto;
+    background-color: #2aae8f;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+  }
+
+  .pokemon-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer; /* Faz o cursor se transformar em uma mãozinha ao passar por cima */
+}
